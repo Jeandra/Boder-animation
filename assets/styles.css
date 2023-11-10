@@ -16,4 +16,10 @@ body {
     inset: -2px;
     background-color: inherit;
     border-radius: inherit;
+    background-image: conic-gradient(from var(--angle)
+    at 50% 50%, transparent 0%, transparent 33%,
+    hsl(var(--primary)) 50%, transparent 66%,
+    transparent 100%);
+    animation: rotate 2s infinite linear;
+    z-index: -1;
 }
