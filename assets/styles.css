@@ -8,3 +8,12 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.btn::before,
+.btn::after {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background-color: inherit;
+    border-radius: inherit;
+}
